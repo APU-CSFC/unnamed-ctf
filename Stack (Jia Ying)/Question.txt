@@ -1,0 +1,21 @@
+----------
+Question
+----------
+mov eax, 0xA00
+push eax
+mov ebx, 0xBC
+pop ecx
+push 0x123
+add eax, ebx
+pop ebx
+push eax
+push 456
+shl ebx, 8
+push ebx
+
+At the end of the code, multiply the decimal value of the item at the bottom of the stack with the total number of items in the stack. What is the answer?
+
+----------
+ Answer
+----------
+8244

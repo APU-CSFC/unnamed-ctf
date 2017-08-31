@@ -1,0 +1,7 @@
+N:12345
+d: 987
+Message: 3219876540
+
+Q: what is the decrypted number?
+
+decrypted = (encrypted) ^ d mod N

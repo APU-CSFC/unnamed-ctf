@@ -1,0 +1,18 @@
+----------
+Question
+----------
+mov ebx, 0xD000
+sub ebx, 0x1111
+mov edx, 0x20
+mov eax, 0x98
+mul edx
+add eax, 0x37
+add eax, ebx
+shr eax, 8
+
+What is the final value of eax in hexadecimal form (ie. 0x123ABC)?
+
+----------
+ Answer
+----------
+0xD2

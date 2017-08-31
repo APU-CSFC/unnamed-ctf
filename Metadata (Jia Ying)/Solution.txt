@@ -1,0 +1,12 @@
+1. Get exiftool. 
+   url: http://www.sno.phy.queensu.ca/~phil/exiftool/
+
+2. Type 'exiftool Cmonster.jpg'
+   or
+   'exiftool -g1 Cmonster.jpg'
+
+3. ???
+
+4. Profit.
+
+4.1. Flag: meta_dat_data

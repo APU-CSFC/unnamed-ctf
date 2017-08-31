@@ -1,0 +1,14 @@
+1. Open pcapng file with wireshark.
+2. Lookup list of http objects (google 'how to export http objects in wireshark)
+3. Export the image file (the one from deviantart)
+4. Record the colour code (in hex) of each of the squares.
+	Should get something like this:
+		666c61 
+		677b35
+		6e3334 
+		6b795f
+		633031 
+		307572 
+		357d00
+5. Convert them into ascii characters.
+6. Flag: flag{5n34ky_c010ur5}

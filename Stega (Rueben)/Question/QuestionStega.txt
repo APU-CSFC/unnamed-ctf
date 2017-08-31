@@ -1,0 +1,5 @@
+Steganography:
+
+Q:Try the find the flag within the file itself.
+
+Hints: Check the file signature. 
